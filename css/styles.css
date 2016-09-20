@@ -1,0 +1,76 @@
+#grad1 {
+ background: red; /* For browsers that do not support gradients */
+ /* Safari 5.1 to 6.0 */
+ background: -webkit-radial-gradient(50% 65%, closest-side, #d1d3d4, #808285);
+ /* For Opera 11.6 to 12.0 */
+ background: -o-radial-gradient(50% 65%, closest-side, #d1d3d4, #808285);
+ /* For Firefox 3.6 to 15 */
+ background: -moz-radial-gradient(50% 65%, closest-side, #d1d3d4, #808285);
+ /* Standard syntax */
+ background: radial-gradient(closest-side at 50% 65%, #d1d3d4, #808285);
+height:400px;
+}
+
+.push{
+	margin-top:80px;
+}
+
+hr.lineColor{
+	border-bottom-color:#f58220;
+	border-top-color:#f58220;
+	border-right-color:#f58220;
+	border-left-color:#f58220;
+}
+
+.creativeSquareOneLogo{
+	height:278px;
+	width:553px;
+	max-width: 100%;
+    height: auto;
+
+}
+
+
+ul.list-inline.text-center{
+
+	margin-right: 550px;
+
+}
+
+
+/*@media (max-width: 1000px) {
+  .socialMedia {
+    display:none;
+    position: absolute;
+  }
+}
+*/
+
+#siteMapHeader{
+	height:60px;
+	background-color: gray;
+}
+
+div.page-heading{
+	padding:0px;
+}
+
+
+.headerPadding{
+	padding-top:50px;
+}
+
+.centerMap{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	list-style: none;
+
+}
+
+.centerSiteMapLink{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+}
+
