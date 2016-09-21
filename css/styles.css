@@ -14,16 +14,46 @@ height:400px;
 
 
 .homeHeaderPhoto {
-background-image: url('../img/home-bg.jpg');
-background-size: cover;
-background-position: center;
+	background-image: url('../img/home-bg.jpg');
+	background-size: cover;
+	background-position: center;
 }
 
 .methodHeaderPhoto {
-background-image: url('../img/method-bg.jpg');
-background-size: cover;
-background-position: center;
+	background-image: url('../img/method-bg.jpg');
+	background-size: cover;
+	background-position: center;
 }
+
+.aboutHeaderPhoto{
+	background-image: url('../img/about.jpg');
+	background-size: cover;
+	background-position: center;
+	height:450px;
+}
+
+.aboutHeaderTextCenter{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	margin-top: 200px;
+
+}
+
+.aboutTextColor{
+	color:white;
+}
+
+.aboutUsTextSpace{
+	margin-top:50px;
+}
+
+.contactHeaderPhoto{
+	background-image: url('../img/contact.jpeg');
+	background-size: cover;
+	background-position: center;
+}
+
 
 
 .push{
@@ -81,13 +111,10 @@ ul.list-inline.text-center{
 
 
 
-
-}
-
-div.
+/*div.
 -heading{
 	padding:0px;
-}
+}*/
 
 
 .headerPadding{
