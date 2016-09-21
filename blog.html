@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative Square One - blog</title>
+    <title>Square One Creative - blog</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,30 +43,29 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Creative Square One</a>
+                <a class="navbar-brand" href="index.html">Square One Creative</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right moveNavLeft">
                     <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="portfolio.html">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="methodology.html">Methodology</a>
-                    </li>
-                    <li>
+                     <li>
                         <a href="blog.html">Blog</a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                        <div id="myDropdown" class="dropdown-content dropDownFont">
+                            <a href="about.html">About</a>
+                            <a href="methodology.html">Methodology</a>
+                            <a href="contact.html">Contact</a>
+                         </div>
+                    </div>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -76,6 +75,7 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
+    <!-- class="intro-header" style="background-image: url('img/about-bg.jpg')"> -->
     <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
         <div class="container">
             <div class="row">
@@ -151,17 +151,17 @@
 
     <hr>
 
-    <!-- Footer -->
+     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="container copyrightCenter">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 ">
                     <ul class="list-inline">
                         <li>
-                            <a href="#">
+                            <a class="twitterMargin" href="#">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse "></i>
                                 </span>
                             </a>
                         </li>
@@ -181,16 +181,19 @@
                                 </span>
                             </a>
                         </li>
+                        <li>
+                            <a class="footerFontSize siteMapMargin" href="siteMap.html">Site Map</a>
+                        </li>
+                        <li>
+                            <div class="footerFontSize">1234 Main Street, Milwaukee, WI 53203 &nbsp; &nbsp; 1-800-000-0000
+                            </div>
+                        </li>
                     </ul>
-                    <div class="centerSiteMapLink">
-                        <a href="siteMap.html">Site Map</a>
-                    </div>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    <p class="footerFontSize copyrightCenter"><br><br>Copyright &copy; Square One Creative 2016</p>
                 </div>
             </div>
         </div>
     </footer>
-
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -203,6 +206,7 @@
 
     <!-- Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
