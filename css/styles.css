@@ -11,6 +11,15 @@
 height:400px;
 }
 
+
+
+header {
+background-image: url('../img/home-bg.jpg');
+background-size: cover;
+background-position: center;
+}
+
+
 .push{
 	margin-top:80px;
 }
@@ -27,6 +36,7 @@ hr.lineColor{
 	width:553px;
 	max-width: 100%;
     height: auto;
+    margin-bottom: 10%;
 
 }
 
@@ -51,6 +61,21 @@ ul.list-inline.text-center{
 #siteMapHeader{
 	height:57px;
 	background-color: gray;
+}
+
+.navbar-custom .nav li a {
+   color: black;
+}
+
+
+.navbar-custom .navbar-brand {
+    color: black;
+
+}
+
+
+
+
 }
 
 div.page-heading{
@@ -122,7 +147,7 @@ div.page-heading{
 /* Dropdown Button */
 .dropbtn {
     background-color: #f5821f;
-    color: white;
+    color: black;
     padding: 20px;
     font-size: 12px;
     border: none;
