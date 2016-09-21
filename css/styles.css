@@ -13,8 +13,14 @@ height:400px;
 
 
 
-header {
+.homeHeaderPhoto {
 background-image: url('../img/home-bg.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.methodHeaderPhoto {
+background-image: url('../img/method-bg.jpg');
 background-size: cover;
 background-position: center;
 }
@@ -78,13 +84,18 @@ ul.list-inline.text-center{
 
 }
 
-div.page-heading{
+div.
+-heading{
 	padding:0px;
 }
 
 
 .headerPadding{
 	padding-top:50px;
+}
+
+.headerMethodPadding{
+    padding-top:300px;
 }
 
 .centerMap{
