@@ -43,8 +43,8 @@ ul.list-inline.text-center{
     display:none;
     position: absolute;
   }
-}
-*/
+}*/
+
 
 #siteMapHeader{
 	height:60px;
@@ -68,9 +68,34 @@ div.page-heading{
 
 }
 
-.centerSiteMapLink{
+/*.centerSiteMapLink{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+}*/
+
+.footerFontSize{
+	font-size: 13px;
+}
+
+.twitterMargin{
+	margin-left:50px;
+}
+
+.siteMapMargin{
+	margin-left:10px;
+}
+
+.phoneNumberMargin{
+	margin-left:5px;
+}
+
+.copyrightCenter{
 	margin:0 auto;
 	width:100%;
 	text-align:center;
 }
+
+
+
 
