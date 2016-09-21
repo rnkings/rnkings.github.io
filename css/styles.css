@@ -38,12 +38,14 @@ ul.list-inline.text-center{
 }
 
 
-/*@media (max-width: 1000px) {
+/*
+@media (max-width: 1000px) {
   .socialMedia {
     display:none;
     position: absolute;
   }
-}*/
+}
+*/
 
 
 #siteMapHeader{
@@ -65,14 +67,8 @@ div.page-heading{
 	width:100%;
 	text-align:center;
 	list-style: none;
-
 }
 
-/*.centerSiteMapLink{
-	margin:0 auto;
-	width:100%;
-	text-align:center;
-}*/
 
 .footerFontSize{
 	font-size: 13px;
@@ -96,6 +92,34 @@ div.page-heading{
 	text-align:center;
 }
 
+@media (max-width: 400px) {
+  .centerIcon {
+	 margin-top: 20%;
+
+  }
+}
+
+@media (max-width: 500px) {
+  .centerIconMedium {
+	 margin-top: 10%;
+
+  }
+}
 
 
+
+
+
+/*navbar-header page-scroll
+navbar-toggle*/
+
+
+c/*ollapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right*/
+
+
+/*.collapse.navbar-collapse.navbar-nav.navbar-right{
+
+}
+*/
 
