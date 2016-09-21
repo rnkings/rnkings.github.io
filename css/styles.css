@@ -13,7 +13,7 @@ height:400px;
 
 
 
-header {
+.homeHeaderPhoto {
 background-image: url('../img/home-bg.jpg');
 background-size: cover;
 background-position: center;
