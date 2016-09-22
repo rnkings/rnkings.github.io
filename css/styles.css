@@ -43,6 +43,35 @@ height:400px;
 	margin-top:50px;
 }
 
+
+.blogHeaderPhoto {
+	background-image: url('../img/blog.jpg');
+	background-size: cover;
+	background-position: center;
+	height:450px;
+}
+
+.blogHeaderTextCenter{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	margin-top: 200px;
+
+}
+
+
+.blogTextColor{
+	color:white;
+}
+
+.blogTextSpace{
+	margin-top:50px;
+}
+
+.blogTextSpace{
+	margin-top:50px;
+}
+
 .contactHeaderPhoto{
 	background-image: url('../img/contact.jpg');
 	background-size: cover;
@@ -87,7 +116,7 @@ height:400px;
 	color:white;
 }
 
-.methodUsTextSpace{
+.methodTextSpace{
 	margin-top:50px;
 }
 
