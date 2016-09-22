@@ -198,7 +198,7 @@ ul.list-inline.text-center{
 
 #siteMapHeader{
 	height:57px;
-	background-color: gray;
+	background-color: #939598;
 }
 
 .navbar-custom .nav li a {
@@ -235,10 +235,10 @@ ul.list-inline.text-center{
 	font-size: 13px;
 }
 
-.twitterMargin{
+/*.twitterMargin{
 	margin-left:50px;
 }
-
+*/
 .siteMapMargin{
 	margin-left:10px;
 }
@@ -248,9 +248,14 @@ ul.list-inline.text-center{
 }
 
 .copyrightCenter{
-	margin:0 auto;
+	/*margin:0 auto;
 	width:100%;
-	text-align:center;
+	text-align:center;*/
+	float: right;
+	padding: 30px;
+	width: 100%;
+	text-align: center;
+	margin: 0px auto;
 }
 
 @media (max-width: 400px) {
@@ -316,7 +321,7 @@ ul.list-inline.text-center{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -350,33 +355,61 @@ ul.list-inline.text-center{
 
 
 h3{
-    font-size: 20px;
-    font-family:Verdana;
-    color: #515151;
+    font-size: 15px;
+    font-family:'lora';
+    color: white;
+    text-align: left;
 }
 img {
-     width: 40%;
+     width: 48%;
+   
+
 	}
 	    
 .carousel-inner {
-      background-color: white;
+      background-color: gray;
 }
     
 .carousel-caption {
-      font-size: 2em;
+      font-size: 12px;
       right: 10%;
       left: 60%;
       top: 30%;
       bottom: 30%;
       text-align: left;
-      text-shadow: none;
+      text-shadow: black;
+      color: white;
+      font-family:'lora';
      }
+
 .carousel-indicators{
-      font-size: 2em;
+      font-size: 15px;
       bottom: -1%;
-      text-align: left;
-      text-shadow: none;
+      text-align: center;
+      text-shadow: black;
+      font-color: black;
         }
+
+.carousel-indicators .active {
+  background-color: orange;
+  border-color: gray;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.button.btn:focus {
+  border-width: 0;
+}
+
+a.left.carousel-control{
+
+box-shadow: blue;
+
+}
+
         
 /***
  * Bootstrap relies on CSS transitions for animation, which makes it
