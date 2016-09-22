@@ -342,6 +342,19 @@ ul.list-inline.text-center{
 .blogSpace{
 	margin-bottom: 25px;
 }
+.carousel-caption{
+	background-color: gray;
+	opacity:0.4;
+	margin-top:50%;
+	font-size:15px;
+	width:40.5%;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -21%;
+    text-align: center;
+    list-style: none;
+}
 
 
 
