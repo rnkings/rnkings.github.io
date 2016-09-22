@@ -43,6 +43,35 @@ height:400px;
 	margin-top:50px;
 }
 
+.portfolioHeaderPhoto {
+	background-image: url('../img/portfolio.jpg');
+	background-size: cover;
+	background-position: center;
+	height:450px;
+}
+
+.portfolioHeaderTextCenter{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	margin-top: 200px;
+
+}
+
+
+.portfolioTextColor{
+	color:white;
+}
+
+.portfolioTextSpace{
+	margin-top:50px;
+}
+
+.portfolioTextSpace{
+	margin-top:50px;
+}
+
+
 
 .blogHeaderPhoto {
 	background-image: url('../img/blog.jpg');
@@ -312,10 +341,6 @@ ul.list-inline.text-center{
 
 .blogSpace{
 	margin-bottom: 25px;
-}
-
-.centerSliderPhoto{
-	margin-bottom:10%;
 }
 
 
