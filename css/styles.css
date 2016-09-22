@@ -19,11 +19,6 @@ height:400px;
 	background-position: center;
 }
 
-.methodHeaderPhoto {
-	background-image: url('../img/method-bg.jpg');
-	background-size: cover;
-	background-position: center;
-}
 
 .aboutHeaderPhoto{
 	background-image: url('../img/about.jpg');
@@ -70,6 +65,29 @@ height:400px;
 
 
 .contactUsTextSpace{
+	margin-top:50px;
+}
+
+.methodHeaderPhoto{
+	background-image: url('../img/method.jpg');
+	background-size: cover;
+	background-position: center;
+	height:450px;
+}
+
+.methodHeaderTextCenter{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	margin-top: 200px;
+
+}
+
+.methodTextColor{
+	color:white;
+}
+
+.methodUsTextSpace{
 	margin-top:50px;
 }
 
@@ -147,9 +165,6 @@ ul.list-inline.text-center{
 	padding-top:50px;
 }
 
-.headerMethodPadding{
-    padding-top:300px;
-}
 
 .centerMap{
 	margin:0 auto;
