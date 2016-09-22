@@ -362,8 +362,6 @@ h3{
 }
 img {
      width: 48%;
-   
-
 	}
 	    
 .carousel-inner {
@@ -372,14 +370,15 @@ img {
     
 .carousel-caption {
       font-size: 12px;
-      right: 10%;
+	  right: 10%;
       left: 60%;
       top: 30%;
       bottom: 30%;
-      text-align: left;
+	  text-align: left;
       text-shadow: black;
       color: white;
       font-family:'lora';
+
      }
 
 .carousel-indicators{
