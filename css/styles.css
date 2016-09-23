@@ -13,7 +13,8 @@ height:400px;
 	background-image: url('../img/home-bg.jpg');
 	background-size: cover;
 	background-position: center;
-	height:450px;
+	width: 100%;
+	height:25%;
 }
 
 
@@ -30,6 +31,7 @@ height:400px;
 	text-align:center;
 	margin-top: 200px;
 
+
 }
 
 .aboutTextColor{
@@ -45,6 +47,7 @@ height:400px;
 	background-size: cover;
 	background-position: center;
 	height:450px;
+
 }
 
 .portfolioHeaderTextCenter{
@@ -172,7 +175,9 @@ hr.lineColor{
 	width:553px;
 	max-width: 100%;
     height: auto;
+    margin-top: 50px;
     margin-bottom: 10%;
+
 
 }
 
