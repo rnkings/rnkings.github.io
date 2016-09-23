@@ -443,9 +443,6 @@ a:hoverSubmit{
     color: black;
 }
 
-.pushCopy{
-margin-bottom: 100px;
-}
 
 .btn-default:hover {
 	background-color: #f5821f;
@@ -485,6 +482,17 @@ margin-bottom: 100px;
 	color: #58595b;
 }
 
+.indexParagraphMargin{
+	margin-top:5%;
+	margin-bottom: 5%;
+	margin-right: 10%;
+	margin-left:10%;
+}
+
+
+.methodologyParagraphMargin{
+	margin:10%;
+}
 /*.navbar-brand .nav li a:focus, .navbar-brand .nav li a:hover{
 	color: #58595b;
 }*/
