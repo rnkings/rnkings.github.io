@@ -90,17 +90,14 @@ height:400px;
 }
 
 
-.blogTextColor{
+.blogTextSpace{
+	margin-top:30px;
+}
+
+.blogHeaderTextColor{
 	color:white;
 }
 
-.blogTextSpace{
-	margin-top:50px;
-}
-
-.blogTextSpace{
-	margin-top:50px;
-}
 
 .contactHeaderPhoto{
 	background-image: url('../img/contact.jpg');
