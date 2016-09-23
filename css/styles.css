@@ -442,4 +442,24 @@ color: #f5821f}
 margin-bottom: 100px;
 }
 
+.btn-default:hover {
+	background-color: #f5821f;
+	border-color: gray;
 
+
+}
+
+
+.btn-default:after{
+	background-color: gray;
+	border-color: gray;
+
+
+}
+
+
+
+/*button [type=submit] :selection{
+	background-color: gray;
+	outline: 0;
+}*/
