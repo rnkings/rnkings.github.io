@@ -429,7 +429,7 @@ p{
 }
 
 .dropdown-content{
-	position:relative;
+	position:fixed;
 }
 
 
