@@ -265,7 +265,7 @@ hr.lineColor{
 
 
 
-/* Dropdown Button */
+/* mydown Button */
 .dropbtn {
     background-color: #f5821f;
     color: black;
@@ -435,8 +435,13 @@ a:hover{
 }
 
 a:focus{
+	color: #f5821f
+}
 
-color: #f5821f}
+
+a:hoverSubmit{
+    color: black;
+}
 
 .pushCopy{
 margin-bottom: 100px;
@@ -449,9 +454,14 @@ margin-bottom: 100px;
 
 }
 
+.btn-default:focus {
+	background-color: gray;
+	border-color: gray;
+}
+
 
 .btn-default:after{
-	background-color: gray;
+	background-color: red;
 	border-color: gray;
 
 

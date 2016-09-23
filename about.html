@@ -38,43 +38,41 @@ button.dropbtn.active.focus, button.dropbtn.active:focus, button.dropbtn.focus, 
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html">Square One Creative</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right moveNavLeft">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                     <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn">Company</button>
-                        <div id="myDropdown" class="dropdown-content dropDownFont">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1"
+            data-toggle="collapse" type="button"><span class="sr-only">Toggle
+            navigation</span> Menu <i class="fa fa-bars"></i></button> <a class=
+            "navbar-brand" href="index.html">Square One Creative</a>
+        </div><!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right moveNavLeft">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li style="list-style: none; display: inline" class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Company</a>
+                    <ul class="dropdown-menu dropDownFont" id="myDropdown">
+                        <li>
                             <a href="about.html">About</a>
+                        </li>
+                        <li>
                             <a href="methodology.html">Methodology</a>
-                            <a href="contact.html">Contact</a>
-                         </div>
-                    </div>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-        <!-- /.container -->
-    </nav>
-
+    </div><!-- /.navbar-collapse -->
+    <!-- /.container -->
+</nav>
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
     <!-- class="intro-header" style="background-image: url('img/about-bg.jpg')"> -->
