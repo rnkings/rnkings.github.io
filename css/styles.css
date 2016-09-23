@@ -1,16 +1,12 @@
-#grad1 {
- background: red; /* For browsers that do not support gradients */
- /* Safari 5.1 to 6.0 */
+/*#grad1 {
+ background: red;
  background: -webkit-radial-gradient(50% 65%, closest-side, #d1d3d4, #808285);
- /* For Opera 11.6 to 12.0 */
  background: -o-radial-gradient(50% 65%, closest-side, #d1d3d4, #808285);
- /* For Firefox 3.6 to 15 */
  background: -moz-radial-gradient(50% 65%, closest-side, #d1d3d4, #808285);
- /* Standard syntax */
  background: radial-gradient(closest-side at 50% 65%, #d1d3d4, #808285);
 height:400px;
 }
-
+*/
 
 
 .homeHeaderPhoto {
@@ -183,12 +179,6 @@ hr.lineColor{
 }
 
 
-ul.list-inline.text-center{
-
-	margin-right: 550px;
-
-}
-
 
 /*
 @media (max-width: 1000px) {
@@ -216,13 +206,6 @@ ul.list-inline.text-center{
 }
 
 
-
-/*div.
--heading{
-	padding:0px;
-}*/
-
-
 .headerPadding{
 	padding-top:50px;
 }
@@ -243,26 +226,21 @@ ul.list-inline.text-center{
 	margin-left:50px;
 }
 */
-.siteMapMargin{
+/*.siteMapMargin{
 	margin-left:10px;
-}
+}*/
 
-.phoneNumberMargin{
+/*.phoneNumberMargin{
 	margin-left:5px;
-}
+}*/
 
 .copyrightCenter{
-	/*margin:0 auto;
-	width:100%;
-	text-align:center;*/
-	float: right;
-	padding: 30px;
 	width: 100%;
 	text-align: center;
 	margin: 0px auto;
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
   .centerIcon {
 	 margin-top: 20%;
 
@@ -274,7 +252,7 @@ ul.list-inline.text-center{
 	 margin-top: 10%;
 
   }
-}
+}*/
 
 /*.menuNameColor{
 	font-color:blue;
@@ -439,9 +417,16 @@ box-shadow: blue;
 .carousel.vertical .active.left   { top: -100%; }        
 
 
+/*.list-inline{
+	margin-left:0;
+	width:100%;
+}
+*/
 
-
-
+p{
+	padding:0px;
+	margin:0px;
+}
 
 
 
