@@ -189,7 +189,7 @@ hr.lineColor{
 
 
 #siteMapHeader{
-	height:57px;
+	height:60px;
 	background-color: #939598;
 }
 
@@ -467,7 +467,27 @@ margin-bottom: 100px;
 
 }
 
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
 
+    background-color: #f5821f;
+}
+
+.buttonOrange{
+	background-color: #f5821f;
+}
+
+
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover{
+	color: #58595b;
+}
+
+.navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover{
+	color: #58595b;
+}
+
+/*.navbar-brand .nav li a:focus, .navbar-brand .nav li a:hover{
+	color: #58595b;
+}*/
 
 /*button [type=submit] :selection{
 	background-color: gray;
