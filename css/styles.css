@@ -430,5 +430,11 @@ p{
 	position:fixed;
 }
 
+a:hover{
+    color: #f5821f;
+}
+
+a:focus{
+color: #f5821f}
 
 
