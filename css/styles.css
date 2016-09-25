@@ -170,6 +170,8 @@ hr.lineColor {
 	width: 100%;
 	text-align: center;
 	list-style: none;
+	padding-top: 50px;
+	padding-bottom: 5%;
 }
 
 .footerFontSize {
@@ -360,4 +362,16 @@ a:hoverSubmit {
 
 .methodologyParagraphMargin {
 	margin: 10%;
+}
+
+
+
+@media(max-width:767px){
+    .dropdown-menu{
+    	/*display:relative;*/
+    }
+
+    header#siteMapHeader {
+		height: auto;
+    }
 }
